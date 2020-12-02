@@ -280,7 +280,29 @@ html, body {                                   /* My First Website (Needs workin
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-
+    .navbar {
+        right: 20px;
+    }
+    .name {
+        position: relative;
+        bottom: 30px;
+        right: 100px;
+    }
+    .about h1 {
+        top: 0px;
+    }
+    .about p {
+        top: 30px;
+    }
+    .skills {
+        position: relative;
+        display: inline;
+        left: 250px;
+    }
+    .footer h1 {
+        position: absolute;
+        margin-left: 100px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
